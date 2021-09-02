@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Register"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ScheduleCast"
+	}
+}

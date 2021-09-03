@@ -32,11 +32,11 @@ session_start();
                         <p class="text-lg text-white">Email Login</p>
                     </a>
                 </div>
-                <div class="flex-1">
+                <!-- <div class="flex-1">
                     <?php if (isset($_GET['error'])) { ?>
                         <p class="w-full bg-red-100 text-red-700 p-2.5 rounded-md my-5"><?php echo $_GET['error']; ?></p>
                     <?php } ?>
-                </div>
+                </div> -->
                 <div>
                     <form class="flex flex-1 flex-col gap-y-7" action="login.php" method="post">
 
@@ -52,7 +52,8 @@ session_start();
         </div>
         <!-- Background -->
         <div class="flex flex-grow w-7/12 bg-green-200">
-            <img alt="CIIT Header" class="bg-center bg-no-repeat object-cover h-full w-auto" src="assets/img/interweave.jpg">
+            <img alt="CIIT Header" class="bg-center bg-no-repeat object-cover h-full w-auto"
+                src="assets/img/interweave.jpg">
         </div>
     </div>
 

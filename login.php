@@ -62,5 +62,3 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
 	header("Location: index.php");
 	exit();
 }
-
-?>
